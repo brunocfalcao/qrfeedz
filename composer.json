@@ -40,8 +40,10 @@
         "friendsofphp/php-cs-fixer": "^3.14",
         "jubeki/laravel-code-style": "^2.0",
         "mockery/mockery": "^1.4.4",
-        "nunomaduro/collision": "^7.0",
+        "nunomaduro/collision": "6.1",
         "nunomaduro/larastan": "^2.5",
+        "pestphp/pest-plugin-laravel": "^1.4",
+        "phpunit/phpunit": "9.6",
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {
@@ -71,7 +73,8 @@
             "@php artisan key:generate --ansi"
         ],
         "check-style": "php-cs-fixer fix --dry-run --diff",
-        "fix-style": "php-cs-fixer fix"
+        "fix-style": "php-cs-fixer fix",
+        "pest": "vendor/bin/pest"
     },
     "extra": {
         "laravel": {
