@@ -3,11 +3,9 @@
 use Illuminate\Foundation\Testing\Concerns\InteractsWithDatabase;
 use Illuminate\Foundation\Testing\Concerns\InteractsWithViews;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use QRFeedz\Cube\Models\Affiliate;
 use QRFeedz\Cube\Models\Country;
 use QRFeedz\Cube\Models\User;
-use Tests\TestCase;
 
 uses(RefreshDatabase::class, InteractsWithDatabase::class, InteractsWithViews::class);
 
