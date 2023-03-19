@@ -165,7 +165,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-defaultables",
-                "reference": "32d0679cdc8eaafe7470e2fcd3194f79e5bf0b7e"
+                "reference": "bd223fd051e6c0856266ee5fc05a83d533b29601"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -404,7 +404,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-authorization",
-                "reference": "7de55c354e23d2e455cb8084690cac17a0576e8f"
+                "reference": "1935e86caa951415001ad8c30e5984661ededb34"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
@@ -454,7 +454,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "340eaa336ba25b328c0a603ed20e375e1fc5d424"
+                "reference": "8e8ccb62128e87e80f11dc8de3160424577a3503"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -553,7 +553,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "fa4a62a3b99d2c7d2c4848d334ba4779d4f8f589"
+                "reference": "b0af9abe6ea4b6f4828e349a7bfa1ce7cdc46894"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
@@ -2232,7 +2232,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "c3e679cc7d19527fda4210ef137075dafb106d0c"
+                "reference": "7d15f7eef442633cff108f83d9fe43d8c3b8b76f"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -2330,7 +2330,7 @@
                 "league/flysystem-read-only": "^3.3",
                 "league/flysystem-sftp-v3": "^3.0",
                 "mockery/mockery": "^1.5.1",
-                "orchestra/testbench-core": "^8.0",
+                "orchestra/testbench-core": "^8.1",
                 "pda/pheanstalk": "^4.0",
                 "phpstan/phpdoc-parser": "^1.15",
                 "phpstan/phpstan": "^1.4.7",
@@ -2436,7 +2436,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/nova",
-                "reference": "fdfd42681fe4066cee9a13f6b83750358ff3cc0b"
+                "reference": "b1184812903d97f479c222b2618a63729152d24c"
             },
             "require": {
                 "brick/money": "^0.5.0|^0.6.0|^0.7.0|^0.8.0",
