@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02443ed696f6cc7780aeacbc9365f889",
+    "content-hash": "fd66d95207892b5033a622d98ad5b1f0",
     "packages": [
         {
             "name": "brick/math",
@@ -396,23 +396,16 @@
         {
             "name": "brunocfalcao/qrfeedz-admin",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/qrfeedz-admin.git",
-                "reference": "715b4be9cb4d6b96db942cd6f23dced91e458c1c"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/qrfeedz-admin/zipball/715b4be9cb4d6b96db942cd6f23dced91e458c1c",
-                "reference": "715b4be9cb4d6b96db942cd6f23dced91e458c1c",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/qrfeedz/qrfeedz-admin",
+                "reference": "715b4be9cb4d6b96db942cd6f23dced91e458c1c"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -422,14 +415,13 @@
                 }
             },
             "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
                 "psr-4": {
                     "QRFeedz\\Admin\\": "src/"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -446,32 +438,24 @@
                 "brunocfalcao",
                 "qrfeedz"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/qrfeedz-admin/issues",
-                "source": "https://github.com/brunocfalcao/qrfeedz-admin/tree/master"
-            },
-            "time": "2023-03-16T22:10:56+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/qrfeedz-authorization",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/qrfeedz-authorization.git",
-                "reference": "9c78697001a7f1d2abd6cb6398f8e49e3cf7db22"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/qrfeedz-authorization/zipball/9c78697001a7f1d2abd6cb6398f8e49e3cf7db22",
-                "reference": "9c78697001a7f1d2abd6cb6398f8e49e3cf7db22",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/qrfeedz/qrfeedz-authorization",
+                "reference": "9c78697001a7f1d2abd6cb6398f8e49e3cf7db22"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -481,14 +465,13 @@
                 }
             },
             "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
                 "psr-4": {
                     "QRFeedz\\Authorization\\": "src/"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -505,25 +488,18 @@
                 "brunocfalcao",
                 "qrfeedz"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/qrfeedz-authorization/issues",
-                "source": "https://github.com/brunocfalcao/qrfeedz-authorization/tree/master"
-            },
-            "time": "2023-03-21T17:13:13+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/qrfeedz-cube",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/qrfeedz-cube.git",
-                "reference": "9265c10cb11c4e70e21a1c3012c04a6ffdfed7d4"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/qrfeedz-cube/zipball/9265c10cb11c4e70e21a1c3012c04a6ffdfed7d4",
-                "reference": "9265c10cb11c4e70e21a1c3012c04a6ffdfed7d4",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/qrfeedz/qrfeedz-cube",
+                "reference": "9265c10cb11c4e70e21a1c3012c04a6ffdfed7d4"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -531,7 +507,6 @@
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -545,7 +520,6 @@
                     "QRFeedz\\Cube\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -562,35 +536,28 @@
                 "brunocfalcao",
                 "qrfeedz"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/qrfeedz-cube/issues",
-                "source": "https://github.com/brunocfalcao/qrfeedz-cube/tree/master"
-            },
-            "time": "2023-03-21T12:50:24+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/qrfeedz-frontend",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/qrfeedz-frontend.git",
-                "reference": "47f5150ca41263899d58eaf2c818fe5962dbbfb7"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/qrfeedz-frontend/zipball/47f5150ca41263899d58eaf2c818fe5962dbbfb7",
-                "reference": "47f5150ca41263899d58eaf2c818fe5962dbbfb7",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/qrfeedz/qrfeedz-frontend",
+                "reference": "47f5150ca41263899d58eaf2c818fe5962dbbfb7"
             },
             "require": {
                 "brunocfalcao/laravel-helpers": "dev-master",
                 "brunocfalcao/laravel-logger": "dev-master",
                 "brunocfalcao/laravel-tracer": "dev-master",
                 "brunocfalcao/qrfeedz-services": "dev-master",
+                "brunocfalcao/qrfeedz-widgets": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -604,7 +571,6 @@
                     "QRFeedz\\Frontend\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -621,25 +587,18 @@
                 "brunocfalcao",
                 "qrfeedz"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/qrfeedz-frontend/issues",
-                "source": "https://github.com/brunocfalcao/qrfeedz-frontend/tree/master"
-            },
-            "time": "2023-03-21T17:10:31+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/qrfeedz-migrations",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/qrfeedz-migrations.git",
-                "reference": "931939ab3aa685ac7a9db3ae4ae50b6f6787d9d4"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/qrfeedz-migrations/zipball/931939ab3aa685ac7a9db3ae4ae50b6f6787d9d4",
-                "reference": "931939ab3aa685ac7a9db3ae4ae50b6f6787d9d4",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/qrfeedz/qrfeedz-migrations",
+                "reference": "931939ab3aa685ac7a9db3ae4ae50b6f6787d9d4"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
@@ -648,7 +607,6 @@
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -660,11 +618,10 @@
             "autoload": {
                 "psr-4": {
                     "QRFeedz\\Migrations\\": "src/",
-                    "QRFeedz\\Database\\Seeders\\": "database/seeders/",
-                    "QRFeedz\\Database\\Factories\\": "database/factories/"
+                    "QRFeedz\\Database\\Factories\\": "database/factories/",
+                    "QRFeedz\\Database\\Seeders\\": "database/seeders/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -681,25 +638,18 @@
                 "brunocfalcao",
                 "qrfeedz"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/qrfeedz-migrations/issues",
-                "source": "https://github.com/brunocfalcao/qrfeedz-migrations/tree/master"
-            },
-            "time": "2023-03-21T20:56:05+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/qrfeedz-services",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/qrfeedz-services.git",
-                "reference": "2af69d6e333ad8a670f067a90494d2cc75520394"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/qrfeedz-services/zipball/2af69d6e333ad8a670f067a90494d2cc75520394",
-                "reference": "2af69d6e333ad8a670f067a90494d2cc75520394",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/qrfeedz/qrfeedz-services",
+                "reference": "2af69d6e333ad8a670f067a90494d2cc75520394"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
@@ -707,7 +657,6 @@
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -721,7 +670,6 @@
                     "QRFeedz\\Services\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -738,11 +686,57 @@
                 "brunocfalcao",
                 "qrfeedz"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/qrfeedz-services/issues",
-                "source": "https://github.com/brunocfalcao/qrfeedz-services/tree/master"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "brunocfalcao/qrfeedz-widgets",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/qrfeedz/qrfeedz-widgets",
+                "reference": "b26e4c98917191fa6ae24c176666808a30d23dec"
             },
-            "time": "2023-03-12T21:14:28+00:00"
+            "require": {
+                "brunocfalcao/qrfeedz-cube": "dev-master",
+                "illuminate/contracts": "^10.0",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "QRFeedz\\Widgets\\WidgetsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "QRFeedz\\Widgets\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcão",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "QRFeedz - Questionnaire widgets library",
+            "homepage": "https://github.com/brunocfalcao/brunocfalcao/qrfeedz-widgets",
+            "keywords": [
+                "brunocfalcao",
+                "qrfeedz"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "dflydev/dot-access-data",
