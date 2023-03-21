@@ -21,10 +21,3 @@ packages/*
 .php-cs-fixer.cache
 .php-cs-fixer.cache
 composer.lock
-public/vendor/nova/app.css
-public/vendor/nova/app.js
-public/vendor/nova/main.js
-public/vendor/nova/manifest.js
-public/vendor/nova/mix-manifest.json
-public/vendor/nova/vendor.js
-public/vendor/nova/vendor.js.LICENSE.txt
