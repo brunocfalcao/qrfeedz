@@ -17,7 +17,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-packages/*
+packages/qrfeedz
 .php-cs-fixer.cache
 .php-cs-fixer.cache
 composer.lock
