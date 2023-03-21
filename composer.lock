@@ -404,7 +404,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-authorization",
-                "reference": "a2cc44e18e7a5ebf627001a71858a25aecd38a9e"
+                "reference": "5a9d87a4518b231e1b5467ed85a7ec15d9d38d91"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
@@ -454,7 +454,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "7002544a84ab94de887fcf5b15df0d1a7592053b"
+                "reference": "a0e4ab44a62d038a96d1d65de1fee343b926eee9"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -502,7 +502,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-frontend",
-                "reference": "34bac15e3def0ed8d8a0a9105e788bf53fd4a5a6"
+                "reference": "c29be38f02db2d7d304bd036567eca8ab95b5531"
             },
             "require": {
                 "brunocfalcao/laravel-helpers": "dev-master",
@@ -553,7 +553,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "1f08db7b8ef064212a2e229461c0fd16069721b6"
+                "reference": "07c364b40be41b01e6f5d1189d9e45e1a9654953"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
@@ -2232,7 +2232,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "7d15f7eef442633cff108f83d9fe43d8c3b8b76f"
+                "reference": "c5a5d1c5374c8ee90fefd2ec79f81338e2762dc6"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -2436,7 +2436,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/nova",
-                "reference": "b1184812903d97f479c222b2618a63729152d24c"
+                "reference": "51e3348b88eb55cd92e229d2424c5e196a3b71ff"
             },
             "require": {
                 "brick/money": "^0.5.0|^0.6.0|^0.7.0|^0.8.0",
@@ -7613,16 +7613,16 @@
         },
         {
             "name": "jubeki/laravel-code-style",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Jubeki/laravel-code-style.git",
-                "reference": "94be54e5cb86b983fe2b6d609e71d5a3ee12c471"
+                "reference": "0a5f34d92c4070a99abeead6194f41e7052415d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Jubeki/laravel-code-style/zipball/94be54e5cb86b983fe2b6d609e71d5a3ee12c471",
-                "reference": "94be54e5cb86b983fe2b6d609e71d5a3ee12c471",
+                "url": "https://api.github.com/repos/Jubeki/laravel-code-style/zipball/0a5f34d92c4070a99abeead6194f41e7052415d1",
+                "reference": "0a5f34d92c4070a99abeead6194f41e7052415d1",
                 "shasum": ""
             },
             "require": {
@@ -7665,15 +7665,17 @@
             "description": "Code formatting for Laravel projects",
             "homepage": "https://github.com/Jubeki/laravel-code-style",
             "keywords": [
+                "Pint",
                 "code-style",
+                "custom-fixers",
                 "laravel",
                 "php-cs-fixer"
             ],
             "support": {
                 "issues": "https://github.com/Jubeki/laravel-code-style/issues",
-                "source": "https://github.com/Jubeki/laravel-code-style/tree/2.0.0"
+                "source": "https://github.com/Jubeki/laravel-code-style/tree/2.0.1"
             },
-            "time": "2023-02-22T09:51:07+00:00"
+            "time": "2023-03-20T17:02:41+00:00"
         },
         {
             "name": "mockery/mockery",
