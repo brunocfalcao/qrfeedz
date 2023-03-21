@@ -302,7 +302,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-tracer",
-                "reference": "0e97cadef7702d4ce8e876208f0c0a8ef547d815"
+                "reference": "08b6865fbded217bec4b7d9336b6723490f30946"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -404,7 +404,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-authorization",
-                "reference": "5a9d87a4518b231e1b5467ed85a7ec15d9d38d91"
+                "reference": "9c78697001a7f1d2abd6cb6398f8e49e3cf7db22"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
@@ -454,7 +454,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "a0e4ab44a62d038a96d1d65de1fee343b926eee9"
+                "reference": "9265c10cb11c4e70e21a1c3012c04a6ffdfed7d4"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -502,14 +502,13 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-frontend",
-                "reference": "c29be38f02db2d7d304bd036567eca8ab95b5531"
+                "reference": "47f5150ca41263899d58eaf2c818fe5962dbbfb7"
             },
             "require": {
                 "brunocfalcao/laravel-helpers": "dev-master",
                 "brunocfalcao/laravel-logger": "dev-master",
                 "brunocfalcao/laravel-tracer": "dev-master",
                 "brunocfalcao/qrfeedz-services": "dev-master",
-                "brunocfalcao/qrfeedz-widgets": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
             },
@@ -553,7 +552,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "07c364b40be41b01e6f5d1189d9e45e1a9654953"
+                "reference": "c6f7432032b419f4c597f1d9f4e81832b2c5b8ad"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
@@ -637,53 +636,6 @@
             ],
             "description": "QRFeedz - Services",
             "homepage": "https://github.com/brunocfalcao/brunocfalcao/qrfeedz-services",
-            "keywords": [
-                "brunocfalcao",
-                "qrfeedz"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
-        },
-        {
-            "name": "brunocfalcao/qrfeedz-widgets",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "packages/qrfeedz/qrfeedz-widgets",
-                "reference": "b26e4c98917191fa6ae24c176666808a30d23dec"
-            },
-            "require": {
-                "brunocfalcao/qrfeedz-cube": "dev-master",
-                "illuminate/contracts": "^10.0",
-                "php": "^8.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "QRFeedz\\Widgets\\WidgetsServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "QRFeedz\\Widgets\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bruno Falcão",
-                    "email": "bruno.c.falcao@brunofalcao.me",
-                    "role": "Developer"
-                }
-            ],
-            "description": "QRFeedz - Questionnaire widgets library",
-            "homepage": "https://github.com/brunocfalcao/brunocfalcao/qrfeedz-widgets",
             "keywords": [
                 "brunocfalcao",
                 "qrfeedz"
@@ -2232,7 +2184,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "c5a5d1c5374c8ee90fefd2ec79f81338e2762dc6"
+                "reference": "aad9b2a7421888be614f6d3d134a292239f4c696"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -2435,8 +2387,8 @@
             "version": "4.22.2",
             "dist": {
                 "type": "path",
-                "url": "packages/laravel/nova",
-                "reference": "51e3348b88eb55cd92e229d2424c5e196a3b71ff"
+                "url": "packages/laravel/_nova",
+                "reference": "283e1234c3c784500b0e8137e79487aeb2896b46"
             },
             "require": {
                 "brick/money": "^0.5.0|^0.6.0|^0.7.0|^0.8.0",
@@ -7613,16 +7565,16 @@
         },
         {
             "name": "jubeki/laravel-code-style",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Jubeki/laravel-code-style.git",
-                "reference": "0a5f34d92c4070a99abeead6194f41e7052415d1"
+                "reference": "b7e277e8fc656750ede44156df3a3c1e1e9f0597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Jubeki/laravel-code-style/zipball/0a5f34d92c4070a99abeead6194f41e7052415d1",
-                "reference": "0a5f34d92c4070a99abeead6194f41e7052415d1",
+                "url": "https://api.github.com/repos/Jubeki/laravel-code-style/zipball/b7e277e8fc656750ede44156df3a3c1e1e9f0597",
+                "reference": "b7e277e8fc656750ede44156df3a3c1e1e9f0597",
                 "shasum": ""
             },
             "require": {
@@ -7673,9 +7625,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Jubeki/laravel-code-style/issues",
-                "source": "https://github.com/Jubeki/laravel-code-style/tree/2.0.1"
+                "source": "https://github.com/Jubeki/laravel-code-style/tree/2.1.0"
             },
-            "time": "2023-03-20T17:02:41+00:00"
+            "time": "2023-03-21T11:40:53+00:00"
         },
         {
             "name": "mockery/mockery",
