@@ -5,9 +5,11 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/css/app.css', 'resources/js/app.js'
-                //"./resources/**/*.blade.php",
-                //"./resources/**/*.{vue,js,ts,jsx,tsx}"
+                "resources/js/app.js",
+                "resources/css/app.css"
+            ],
+            refresh: [
+                'resources/**'
             ]
         })
     ]
