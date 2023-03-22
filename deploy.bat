@@ -37,4 +37,3 @@ ren composer.tmp.json composer.json
 start /wait "" "composer" update
 
 echo All tasks completed successfully.
-pause

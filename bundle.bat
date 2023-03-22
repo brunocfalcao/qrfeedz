@@ -46,10 +46,9 @@ if not exist "%source_path%" (
 xcopy /E /I /Y "%source_path%" "%destination_path%"
 
 :: Task 4: Run npm update command
-npm update
+start /wait "" "npm" update
 
 :: Task 5: Run npm build command
-npm run build
+start /wait "" "npm" run build
 
 echo All tasks completed successfully.
-pause
