@@ -18,7 +18,7 @@ ren composer.json composer.tmp.json
 ren composer.remote.json composer.json
 
 :: Step 3: Make a composer update
-composer update
+start /wait "" "composer" update
 
 :: Step 4: Make a GIT commit with message "wip"
 git add .
@@ -34,7 +34,7 @@ ren composer.json composer.remote.json
 ren composer.tmp.json composer.json
 
 :: Step 8: Make again composer update
-composer update
+start /wait "" "composer" update
 
 echo All tasks completed successfully.
 pause
