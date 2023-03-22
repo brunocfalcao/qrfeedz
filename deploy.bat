@@ -20,9 +20,9 @@ ren composer.remote.json composer.json
 :: Step 3: Make a composer update
 start /wait "" "composer" update
 
-:: Step 4: Make a GIT commit with message "wip" (even if no changes)
+:: Step 4: Make a GIT commit with message "forge deploy" (even if no changes)
 git add --all
-git commit --allow-empty -m "wip"
+git commit --allow-empty -m "forge deploy"
 
 :: Step 5: Make a GIT Force Push on the branch "dev"
 git push --force origin dev
