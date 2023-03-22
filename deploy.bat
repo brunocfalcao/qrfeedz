@@ -25,7 +25,7 @@ git add .
 git commit -m "wip"
 
 :: Step 5: Make a GIT Force Push on the branch "DEV"
-git push --force origin DEV
+git push --force origin dev
 
 :: Step 6: Rename back composer.json to composer.remote.json
 ren composer.json composer.remote.json
