@@ -21,3 +21,4 @@ packages/qrfeedz
 .php-cs-fixer.cache
 .php-cs-fixer.cache
 composer.lock
+qrfeedz.zip
