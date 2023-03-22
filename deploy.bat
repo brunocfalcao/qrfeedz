@@ -1,5 +1,16 @@
 @echo off
 
+:: Check if files exist
+if not exist composer.json (
+    echo composer.json not found
+    exit /B 1
+)
+
+if not exist composer.remote.json (
+    echo composer.remote.json not found
+    exit /B 1
+)
+
 :: Step 1: Rename composer.json to composer.tmp.json
 ren composer.json composer.tmp.json
 
