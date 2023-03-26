@@ -24,16 +24,7 @@ if not exist "%source_path%" (
 )
 copy /Y "%source_path%" "%destination_path%"
 
-:: Task 2: Copy vite.config.js
-set "source_path=packages\qrfeedz\qrfeedz-frontend\vite.config.js"
-set "destination_path=vite.config.js"
-if not exist "%source_path%" (
-    echo Source file not found: %source_path%
-    exit /B 1
-)
-copy /Y "%source_path%" "%destination_path%"
-
-:: Task 3: Delete existing resources directory and copy new resources directory
+:: Task 2: Delete existing resources directory and copy new resources directory
 set "source_path=packages\qrfeedz\qrfeedz-frontend\resources"
 set "destination_path=resources"
 if exist "%destination_path%" (
@@ -45,10 +36,10 @@ if not exist "%source_path%" (
 )
 xcopy /E /I /Y "%source_path%" "%destination_path%"
 
-:: Task 4: Run npm update command
+:: Task 3: Run npm update command
 start /wait "" "npm" update
 
-:: Task 5: Run npm build command
+:: Task 4: Run npm build command
 start /wait "" "npm" run build
 
 echo All tasks completed successfully.
