@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5988991f8627d1a6e619b1c5ec39102",
+    "content-hash": "3b09f009b297d2cb54e7fa314aaf5a7c",
     "packages": [
         {
             "name": "brick/math",
@@ -439,7 +439,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-frontend",
-                "reference": "7c4582026b7d75ab93aca60ac18a229b81f2d8f1"
+                "reference": "cabbb44309508332be1c4411792da1537f6e7f95"
             },
             "require": {
                 "brunocfalcao/laravel-helpers": "dev-master",
@@ -1754,17 +1754,11 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "7d15f7eef442633cff108f83d9fe43d8c3b8b76f"
-            },
+            "version": "10.x-dev",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7d15f7eef442633cff108f83d9fe43d8c3b8b76f",
-                "reference": "7d15f7eef442633cff108f83d9fe43d8c3b8b76f",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/laravel/framework",
+                "reference": "4deaad7efcdabf7156353320945f4089b6be57f0"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -1930,7 +1924,14 @@
                     ]
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "files": [
+                    "tests/Database/stubs/MigrationCreatorFakeMigration.php"
+                ],
+                "psr-4": {
+                    "Illuminate\\Tests\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -1950,7 +1951,10 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-03-18T11:34:02+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "laravel/serializable-closure",

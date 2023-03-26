@@ -11,6 +11,13 @@
             "options": {
                 "symlink": true
             }
+        },
+        {
+            "type": "path",
+            "url": "packages/laravel/*",
+            "options": {
+                "symlink": true
+            }
         }
     ],
     "require": {
