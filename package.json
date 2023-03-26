@@ -17,6 +17,7 @@
     },
     "dependencies": {
         "@animxyz/core": "^0.6.6",
+        "@rollup/plugin-commonjs": "^24.0.1",
         "jquery": "^3.6.3"
     }
 }
