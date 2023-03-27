@@ -1,7 +1,7 @@
 @echo off
 
 :: PRE-TASK: Run bundle.bat
-bundle.bat
+call bundle.bat
 
 :: Check if files exist
 if not exist composer.json (
