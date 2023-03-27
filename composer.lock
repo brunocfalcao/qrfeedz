@@ -341,7 +341,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-authorization",
-                "reference": "944a5ec75fdb649ef732819e0c0861d74abc782a"
+                "reference": "c67d370e9d6b216f1dcf7417cad4deef01afdb7f"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
@@ -391,7 +391,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "9265c10cb11c4e70e21a1c3012c04a6ffdfed7d4"
+                "reference": "53bb099c93e7f5491e14efbefa64ce9957890f7c"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -490,7 +490,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "68abd354ab95f5f168d9d8889731f0639f613cbc"
+                "reference": "9523bf6a517b917933d5882fbfaee0807c2f9fe3"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
@@ -547,7 +547,8 @@
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
                 "brunocfalcao/qrfeedz-cube": "dev-master",
                 "illuminate/contracts": "^10.0",
-                "php": "^8.1"
+                "php": "^8.1",
+                "spatie/color": "^1.5"
             },
             "type": "library",
             "extra": {
@@ -3509,6 +3510,65 @@
                 }
             ],
             "time": "2023-02-07T16:14:23+00:00"
+        },
+        {
+            "name": "spatie/color",
+            "version": "1.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/color.git",
+                "reference": "49739265900cabce4640cd26c3266fd8d2cca390"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/color/zipball/49739265900cabce4640cd26c3266fd8d2cca390",
+                "reference": "49739265900cabce4640cd26c3266fd8d2cca390",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "pestphp/pest": "^1.22",
+                "phpunit/phpunit": "^6.5||^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Color\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A little library to handle color conversions",
+            "homepage": "https://github.com/spatie/color",
+            "keywords": [
+                "color",
+                "conversion",
+                "rgb",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/color/issues",
+                "source": "https://github.com/spatie/color/tree/1.5.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-12-18T12:58:32+00:00"
         },
         {
             "name": "symfony/console",
