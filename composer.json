@@ -25,7 +25,8 @@
         "brunocfalcao/qrfeedz-frontend": "dev-master",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.0",
-        "mexitek/phpcolors": "dev-master"
+        "mexitek/phpcolors": "dev-master",
+        "spatie/once": "^3.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
