@@ -33,5 +33,5 @@ return [
         realpath(storage_path('framework/views'))
     ),
 
-    'cache' => env('environment') != 'local' ? true : false
+    'cache' => env('environment') != 'local' ? true : false,
 ];
