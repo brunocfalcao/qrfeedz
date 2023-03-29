@@ -9,17 +9,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <style>
-        /* Remove margin and padding from the body */
-        body {
-            margin: 0;
-            padding: 0;
-        }
-    </style>
+<style>
+    /* Remove margin and padding from the body */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    /* Set up a CSS Grid container to accommodate the safe area insets */
+    .safe-area-container {
+        display: grid;
+        grid-template-rows: min(calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom)), 100%);
+        width: 100%;
+        height: 100%;
+    }
+    .safe-area-content {
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
 </head>
 <body class="bg-white">
-    <div class="h-screen w-screen flex flex-col justify-center items-center border-4 border-red-500">
-        <h1 class="text-3xl font-bold text-gray-700 mb-4">My Questionnaire</h1>
+    <div class="h-screen w-screen flex flex-col justify-center items-center border-4 border-red-500 safe-area-container">
+        <h1 class="text-3xl font-bold text-gray-700 mb-4">Adaptative 3</h1>
         <p class="text-lg text-gray-500">Welcome to my app!</p>
     </div>
     <script>

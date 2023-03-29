@@ -457,12 +457,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/qrfeedz-frontend.git",
-                "reference": "b56e4f98059ea3f1136050be13844ff3483c9a43"
+                "reference": "c8bcd075c2e8ff40b5892822bea84c34c0e3684f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/qrfeedz-frontend/zipball/b56e4f98059ea3f1136050be13844ff3483c9a43",
-                "reference": "b56e4f98059ea3f1136050be13844ff3483c9a43",
+                "url": "https://api.github.com/repos/brunocfalcao/qrfeedz-frontend/zipball/c8bcd075c2e8ff40b5892822bea84c34c0e3684f",
+                "reference": "c8bcd075c2e8ff40b5892822bea84c34c0e3684f",
                 "shasum": ""
             },
             "require": {
@@ -513,7 +513,7 @@
                 "issues": "https://github.com/brunocfalcao/qrfeedz-frontend/issues",
                 "source": "https://github.com/brunocfalcao/qrfeedz-frontend/tree/master"
             },
-            "time": "2023-03-29T10:12:31+00:00"
+            "time": "2023-03-29T12:53:00+00:00"
         },
         {
             "name": "brunocfalcao/qrfeedz-migrations",
