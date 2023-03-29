@@ -439,7 +439,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-frontend",
-                "reference": "090d914364e10ca91aa7b37a217a03bf57716528"
+                "reference": "8bf5f8b7474d25cf69c987c48652b9aed209103a"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -545,13 +545,15 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-services",
-                "reference": "bbda2e153e41929cb9efa432be43d748ba920d92"
+                "reference": "8beb4ed188bc425e80dfdaaa403c36c8b8607ddf"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
                 "brunocfalcao/qrfeedz-cube": "dev-master",
                 "illuminate/contracts": "^10.0",
-                "php": "^8.1"
+                "mexitek/phpcolors": "dev-master",
+                "php": "^8.1",
+                "spatie/once": "^3.1"
             },
             "type": "library",
             "extra": {
