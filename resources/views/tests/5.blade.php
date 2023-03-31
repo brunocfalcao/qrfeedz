@@ -31,7 +31,6 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
             setBodyHeight();
@@ -39,24 +38,7 @@
 
             function setBodyHeight() {
                 const visibleHeight = window.innerHeight;
-                const safeAreaInsets = getSafeAreaInsets();
-                $('body').height(visibleHeight + safeAreaInsets.bottom);
-            }
-
-            function getSafeAreaInsets() {
-                return {
-                    top: parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--safe-area-inset-top')) || 0,
-                    bottom: parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--safe-area-inset-bottom')) || 0
-                };
-            }
-
-            // Set safe area insets for mobile devices
-            const isIOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
-            const isStandalone = 'standalone' in window.navigator && window.navigator.standalone;
-            const safeAreaInsetBottom = 'env(safe-area-inset-bottom)';
-
-            if (isIOS && isStandalone || !isIOS) {
-                document.documentElement.style.setProperty('--safe-area-inset-bottom', safeAreaInsetBottom);
+                $('body').height(visibleHeight);
             }
         });
     </script>

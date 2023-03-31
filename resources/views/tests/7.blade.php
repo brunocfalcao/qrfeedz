@@ -39,15 +39,7 @@
 
             function setBodyHeight() {
                 const visibleHeight = window.innerHeight;
-                const safeAreaInsets = getSafeAreaInsets();
-                $('body').height(visibleHeight + safeAreaInsets.bottom);
-            }
-
-            function getSafeAreaInsets() {
-                return {
-                    top: parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--safe-area-inset-top')) || 0,
-                    bottom: parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--safe-area-inset-bottom')) || 0
-                };
+                $('body').height(visibleHeight);
             }
 
             // Set safe area insets for mobile devices
