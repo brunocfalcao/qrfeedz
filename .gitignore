@@ -21,3 +21,4 @@ packages/laravel
 .php-cs-fixer.cache
 composer.lock
 qrfeedz.zip
+public/storage
