@@ -23,8 +23,6 @@
 </head>
 <body class="flex flex-col bg-white mx-3 my-3 overflow-y-hidden">
 
-    <x-qrfeedz::support.responsive-brackets></x-qrfeedz::support.responsive-brackets>
-
     <!-- header section -->
     <header class="bg-[#DA291C] flex-none w-full rounded-t-[2rem] h-40">
         <div class="text-center text-white font-bold py-2 flex items-center justify-center h-full">
@@ -167,7 +165,6 @@
         </div>
     </footer>
 
-    @vite('resources/js/app.js')
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script>
         // Wait for the DOM to be ready before executing the rest of the code
