@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62f4002fdbd16cf52b1233be18b5fa4b",
+    "content-hash": "72275f5c99d2e43192d909222bf25eef",
     "packages": [
         {
             "name": "brick/math",
@@ -391,7 +391,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "7f30554c4f46080404971ffc69f3a180f8a3291e"
+                "reference": "78dae07a5cba929b77d5a468ca71046216655062"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -439,7 +439,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-frontend",
-                "reference": "9fbfb7b802283785a234cec2a19f5a847da58e86"
+                "reference": "dee260abd4e8b97644a52295ddcc68284fb4d267"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -493,7 +493,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "ba1dd794da5263f17292cfcf51f01833d05056b9"
+                "reference": "8dad0b51dc8d6945239916ca00020189df014b5b"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
@@ -1713,7 +1713,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "1c783fea3f845d4bb886e9e33cab0c7ed0007812"
+                "reference": "be0478dea96a6619bb77676f36f67c1500846b17"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -6104,6 +6104,90 @@
     ],
     "packages-dev": [
         {
+            "name": "barryvdh/laravel-debugbar",
+            "version": "v3.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/laravel-debugbar.git",
+                "reference": "aff3235fecb4104203b1e62c32239c56530eee32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/aff3235fecb4104203b1e62c32239c56530eee32",
+                "reference": "aff3235fecb4104203b1e62c32239c56530eee32",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/routing": "^9|^10",
+                "illuminate/session": "^9|^10",
+                "illuminate/support": "^9|^10",
+                "maximebf/debugbar": "^1.18.2",
+                "php": "^8.0",
+                "symfony/finder": "^6"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.3",
+                "orchestra/testbench-dusk": "^5|^6|^7|^8",
+                "phpunit/phpunit": "^8.5.30|^9.0",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.8-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Barryvdh\\Debugbar\\ServiceProvider"
+                    ],
+                    "aliases": {
+                        "Debugbar": "Barryvdh\\Debugbar\\Facades\\Debugbar"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Barryvdh\\Debugbar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "PHP Debugbar integration for Laravel",
+            "keywords": [
+                "debug",
+                "debugbar",
+                "laravel",
+                "profiler",
+                "webprofiler"
+            ],
+            "support": {
+                "issues": "https://github.com/barryvdh/laravel-debugbar/issues",
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.8.1"
+            },
+            "funding": [
+                {
+                    "url": "https://fruitcake.nl",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/barryvdh",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-02-21T14:21:02+00:00"
+        },
+        {
             "name": "composer/pcre",
             "version": "3.1.0",
             "source": {
@@ -6803,6 +6887,72 @@
                 "source": "https://github.com/Jubeki/laravel-code-style/tree/2.4.0"
             },
             "time": "2023-04-25T12:11:02+00:00"
+        },
+        {
+            "name": "maximebf/debugbar",
+            "version": "v1.18.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximebf/php-debugbar.git",
+                "reference": "17dcf3f6ed112bb85a37cf13538fd8de49f5c274"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/17dcf3f6ed112bb85a37cf13538fd8de49f5c274",
+                "reference": "17dcf3f6ed112bb85a37cf13538fd8de49f5c274",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1|^8",
+                "psr/log": "^1|^2|^3",
+                "symfony/var-dumper": "^4|^5|^6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=7.5.20 <10.0",
+                "twig/twig": "^1.38|^2.7|^3.0"
+            },
+            "suggest": {
+                "kriswallsmith/assetic": "The best way to manage assets",
+                "monolog/monolog": "Log using Monolog",
+                "predis/predis": "Redis storage"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DebugBar\\": "src/DebugBar/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxime Bouroumeau-Fuseau",
+                    "email": "maxime.bouroumeau@gmail.com",
+                    "homepage": "http://maximebf.com"
+                },
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "Debug bar in the browser for php application",
+            "homepage": "https://github.com/maximebf/php-debugbar",
+            "keywords": [
+                "debug",
+                "debugbar"
+            ],
+            "support": {
+                "issues": "https://github.com/maximebf/php-debugbar/issues",
+                "source": "https://github.com/maximebf/php-debugbar/tree/v1.18.2"
+            },
+            "time": "2023-02-04T15:27:00+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -7624,16 +7774,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.14",
+            "version": "1.10.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "d232901b09e67538e5c86a724be841bea5768a7c"
+                "reference": "762c4dac4da6f8756eebb80e528c3a47855da9bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d232901b09e67538e5c86a724be841bea5768a7c",
-                "reference": "d232901b09e67538e5c86a724be841bea5768a7c",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/762c4dac4da6f8756eebb80e528c3a47855da9bd",
+                "reference": "762c4dac4da6f8756eebb80e528c3a47855da9bd",
                 "shasum": ""
             },
             "require": {
@@ -7682,7 +7832,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-19T13:47:27+00:00"
+            "time": "2023-05-09T15:28:01+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -9333,16 +9483,16 @@
         },
         {
             "name": "spatie/laravel-ignition",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-ignition.git",
-                "reference": "802c7e27754456e45134f1a9d29ab7df4b6cb9e4"
+                "reference": "2f99fa6b732a6049e78ed34e4608ce589605ae54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/802c7e27754456e45134f1a9d29ab7df4b6cb9e4",
-                "reference": "802c7e27754456e45134f1a9d29ab7df4b6cb9e4",
+                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/2f99fa6b732a6049e78ed34e4608ce589605ae54",
+                "reference": "2f99fa6b732a6049e78ed34e4608ce589605ae54",
                 "shasum": ""
             },
             "require": {
@@ -9421,7 +9571,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-04T13:54:49+00:00"
+            "time": "2023-05-09T07:19:31+00:00"
         },
         {
             "name": "symfony/filesystem",
