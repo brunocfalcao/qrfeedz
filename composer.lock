@@ -493,7 +493,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "c0599ea1211f8dbd862c1998c9d9c22965da7af1"
+                "reference": "e78eb82f78e4c80787be3141827ce54e8fe6d437"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
