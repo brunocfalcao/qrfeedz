@@ -14,6 +14,13 @@
         },
         {
             "type": "path",
+            "url": "packages/brunocfalcao/laravel-helpers",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
             "url": "packages/laravel/framework",
             "options": {
                 "symlink": true
