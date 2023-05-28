@@ -1,0 +1,15 @@
+PageTypeQuestionnaire
+
+--> PageTypeQuestionnaireObserver (deleted)
+--> question->pageTypeQuestionnaire()
+
+
+QuestionWidgetType -- locale->questionWidgetTypes()
+                questionnaire->questionWidgetTypes()
+                questionWidgetTypeConditional->questionWidgetTypes()
+
+
+
+
+UserAuthorization -- user->authorizations()
+
