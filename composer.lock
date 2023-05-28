@@ -172,7 +172,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
-                "reference": "3f86a93999774fe617a8cad43ffc8c417ae59aff"
+                "reference": "b2a7cae6d8aee019f9d93c02c1d976848a2f5709"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -332,7 +332,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-authorization",
-                "reference": "384205381851d354c9435888f08949bba9bb9569"
+                "reference": "b1c08b8df7e17486e9bae1b5cffc4d127abe4fe0"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
@@ -382,7 +382,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "ba82410919e4dda0f6ff95224b5e59a460a02b6a"
+                "reference": "deeaf2518e9e37fd09abe8ef243839390173f093"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -430,7 +430,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-frontend",
-                "reference": "bd3cb4412cc93e44766c75ac536eb83f72957164"
+                "reference": "264c86c853960055911f02cb2e39c0830736d00a"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -484,7 +484,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "e78eb82f78e4c80787be3141827ce54e8fe6d437"
+                "reference": "b2838eba6fc5523aff02508b4afeaff54727d949"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",

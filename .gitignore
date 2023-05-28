@@ -17,6 +17,7 @@ yarn-error.log
 /.vscode
 packages/qrfeedz
 packages/laravel
+packages/brunocfalcao
 .php-cs-fixer.cache
 .php-cs-fixer.cache
 composer.lock
