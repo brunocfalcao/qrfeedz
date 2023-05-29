@@ -18,14 +18,15 @@ return (new Jubeki\LaravelCodeStyle\Config())
             ->in(base_path('tests'))
     )
     ->setRules([
-        'no_unused_imports' => true,
+        'single_quote' => true,
         'ordered_traits' => true,
+        'ordered_imports' => true,
+        'no_unused_imports' => true,
         'ordered_interfaces' => true,
         'ordered_class_elements' => true,
-        'ordered_imports' => true,
         'blank_line_after_namespace' => true,
-        'assign_null_coalescing_to_coalesce_equal' => true,
-        'ternary_to_null_coalescing' => true,
         'blank_line_after_opening_tag' => true,
-        'single_quote' => true
+        'ternary_to_null_coalescing' => true,
+        'method_chaining_indentation' => false,
+        'assign_null_coalescing_to_coalesce_equal' => true,
     ]);

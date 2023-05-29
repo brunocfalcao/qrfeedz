@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03f7a9442fad677161457e02753cfb56",
+    "content-hash": "7e5c9056db8efa026f7fe1eba5d35c7c",
     "packages": [
         {
             "name": "brick/math",
@@ -113,22 +113,15 @@
         {
             "name": "brunocfalcao/laravel-defaultables",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/laravel-defaultables.git",
-                "reference": "c031ff6c55d7f9c88ca6128bb71cec4334c109e7"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/laravel-defaultables/zipball/c031ff6c55d7f9c88ca6128bb71cec4334c109e7",
-                "reference": "c031ff6c55d7f9c88ca6128bb71cec4334c109e7",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/brunocfalcao/laravel-defaultables",
+                "reference": "c031ff6c55d7f9c88ca6128bb71cec4334c109e7"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -142,7 +135,6 @@
                     "Brunocfalcao\\Defaultables\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -160,11 +152,10 @@
                 "eloquent",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/laravel-defaultables/issues",
-                "source": "https://github.com/brunocfalcao/laravel-defaultables/tree/master"
-            },
-            "time": "2023-03-19T23:12:54+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/laravel-helpers",
@@ -214,22 +205,15 @@
         {
             "name": "brunocfalcao/laravel-logger",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/laravel-logger.git",
-                "reference": "c699f2b129a6cfafb1b6f77568d155dd3ed28751"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/laravel-logger/zipball/c699f2b129a6cfafb1b6f77568d155dd3ed28751",
-                "reference": "c699f2b129a6cfafb1b6f77568d155dd3ed28751",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/brunocfalcao/laravel-logger",
+                "reference": "c699f2b129a6cfafb1b6f77568d155dd3ed28751"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -243,7 +227,6 @@
                     "Brunocfalcao\\Logger\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -259,11 +242,10 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/laravel-logger/issues",
-                "source": "https://github.com/brunocfalcao/laravel-logger/tree/master"
-            },
-            "time": "2023-02-24T16:05:22+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/laravel-tracer",
@@ -332,7 +314,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-authorization",
-                "reference": "b1c08b8df7e17486e9bae1b5cffc4d127abe4fe0"
+                "reference": "1db3a1d3e6d19b9173781856ceb420ca1d96ab2b"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
@@ -382,7 +364,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "deeaf2518e9e37fd09abe8ef243839390173f093"
+                "reference": "06394f15009c7add1dcb0688d2faf6553a001d3e"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -2564,16 +2546,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.66.0",
+            "version": "2.67.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "496712849902241f04902033b0441b269effe001"
+                "reference": "c1001b3bc75039b07f38a79db5237c4c529e04c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/496712849902241f04902033b0441b269effe001",
-                "reference": "496712849902241f04902033b0441b269effe001",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/c1001b3bc75039b07f38a79db5237c4c529e04c8",
+                "reference": "c1001b3bc75039b07f38a79db5237c4c529e04c8",
                 "shasum": ""
             },
             "require": {
@@ -2662,7 +2644,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-29T18:53:47+00:00"
+            "time": "2023-05-25T22:09:47+00:00"
         },
         {
             "name": "nette/schema",

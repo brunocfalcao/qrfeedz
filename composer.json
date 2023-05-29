@@ -14,7 +14,7 @@
         },
         {
             "type": "path",
-            "url": "packages/brunocfalcao/laravel-helpers",
+            "url": "packages/brunocfalcao/*",
             "options": {
                 "symlink": true
             }
