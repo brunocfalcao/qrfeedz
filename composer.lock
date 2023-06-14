@@ -314,7 +314,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-authorization",
-                "reference": "2c96ee69af45b710307125d7a15b8bb616a8d939"
+                "reference": "eda6e497e33c1ef6364235bab3b1604826427269"
             },
             "require": {
                 "brunocfalcao/qrfeedz-cube": "dev-master",
@@ -364,7 +364,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "7c624cedbcb36e976a310704dd25d88a281ef723"
+                "reference": "8ce37ea5081e6df0eece1cbc98eb3e729e7712ae"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -466,7 +466,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "f9e22befdbe8973f8e248bc971f54e4c7b427f8d"
+                "reference": "29304b0bf45aaa7afad8cf1a273d14438ea0f1cc"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
@@ -7798,16 +7798,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.18",
+            "version": "1.10.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "52b6416c579663eebdd2f1d97df21971daf3b43f"
+                "reference": "af5a296ff02610c1bfb4ddfac9fd4a08657b9046"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/52b6416c579663eebdd2f1d97df21971daf3b43f",
-                "reference": "52b6416c579663eebdd2f1d97df21971daf3b43f",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/af5a296ff02610c1bfb4ddfac9fd4a08657b9046",
+                "reference": "af5a296ff02610c1bfb4ddfac9fd4a08657b9046",
                 "shasum": ""
             },
             "require": {
@@ -7856,7 +7856,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-07T22:00:43+00:00"
+            "time": "2023-06-14T15:26:58+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
