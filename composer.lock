@@ -407,6 +407,51 @@
             }
         },
         {
+            "name": "brunocfalcao/qrfeedz-foundation",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/qrfeedz/qrfeedz-foundation",
+                "reference": "04d0afa696eba0b0facd7826987f43b198b2ade3"
+            },
+            "require": {
+                "illuminate/contracts": "^10.0",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "QRFeedz\\Foundation\\FoundationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "QRFeedz\\Foundation\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcão",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "QRFeedz foundation (abstract classes, interfaces, ...)",
+            "homepage": "https://github.com/brunocfalcao/qrfeedz-foundation",
+            "keywords": [
+                "brunocfalcao"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "brunocfalcao/qrfeedz-frontend",
             "version": "dev-master",
             "dist": {
@@ -522,6 +567,7 @@
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
                 "brunocfalcao/qrfeedz-cube": "dev-master",
+                "brunocfalcao/qrfeedz-foundation": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "mexitek/phpcolors": "dev-master",
                 "php": "^8.1",
@@ -1683,7 +1729,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "c8097ef7486e383988b1b63d4caaa14f082314ae"
+                "reference": "31b3d29cea6974674da5296a30442f4d803f28e2"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -7798,16 +7844,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.19",
+            "version": "1.10.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "af5a296ff02610c1bfb4ddfac9fd4a08657b9046"
+                "reference": "c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/af5a296ff02610c1bfb4ddfac9fd4a08657b9046",
-                "reference": "af5a296ff02610c1bfb4ddfac9fd4a08657b9046",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803",
+                "reference": "c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803",
                 "shasum": ""
             },
             "require": {
@@ -7856,7 +7902,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-14T15:26:58+00:00"
+            "time": "2023-06-20T12:07:40+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",

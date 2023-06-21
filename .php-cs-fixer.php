@@ -24,7 +24,6 @@ $jubekiConfig = (new Jubeki\LaravelCodeStyle\Config())
 
 $myConfig = new PhpCsFixer\Config();
 $myConfig->registerCustomFixers([
-    //new QRFeedz\Services\Utils\ImportLengthOrderFixer(), // Register your custom fixer
     new LaravelPhpdocAlignmentFixer()
 ]);
 
@@ -33,7 +32,6 @@ $myConfig->setRiskyAllowed(true);
 $myConfig->setRules(array_merge(
     $jubekiConfig->getRules(),
     [
-        //'QRFeedz/import_length_order' => true, // Enable your custom fixer
         'single_quote' => true,
         'ordered_traits' => true,
         'ordered_imports' => true,
