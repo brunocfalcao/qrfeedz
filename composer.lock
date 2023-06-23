@@ -364,10 +364,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "5c1251c5ebb228f8ee3abce6551c2787906b57d2"
+                "reference": "87bca735380890f2d1f251e3a218b132ee472d7e"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
+                "brunocfalcao/qrfeedz-foundation": "dev-master",
                 "brunocfalcao/qrfeedz-migrations": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
@@ -412,7 +413,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-foundation",
-                "reference": "04d0afa696eba0b0facd7826987f43b198b2ade3"
+                "reference": "05908e1df82bf617ad9c972cef215ad27f8e2543"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -457,13 +458,14 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-frontend",
-                "reference": "72ca83bda45554be5a89ec7a5a766140a58f058b"
+                "reference": "36e937ec7f114769f16e537aa7d032694134b534"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
                 "brunocfalcao/laravel-helpers": "dev-master",
                 "brunocfalcao/laravel-logger": "dev-master",
                 "brunocfalcao/laravel-tracer": "dev-master",
+                "brunocfalcao/qrfeedz-foundation": "dev-master",
                 "brunocfalcao/qrfeedz-services": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
@@ -511,11 +513,12 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-migrations",
-                "reference": "5223eb01d8afa12fb9a03dda7bb99965abab33b6"
+                "reference": "4f5c4510e6f031517ff53a4c8493b92ee396beca"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
                 "brunocfalcao/qrfeedz-cube": "dev-master",
+                "brunocfalcao/qrfeedz-foundation": "dev-master",
                 "fakerphp/faker": "^1.9.1",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
@@ -562,7 +565,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-services",
-                "reference": "53b610a27b26963f56425d66c790564f0a85e33b"
+                "reference": "7b64d26157f8afbfc304746d4adb6a8da4fd6cb7"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
@@ -1729,7 +1732,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "31b3d29cea6974674da5296a30442f4d803f28e2"
+                "reference": "7d08805b6ef8758afc67a90d1ba20fbe8a6eb9a2"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -2491,16 +2494,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "3.3.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "9b5daeaffce5b926cac47923798bba91059e60e2"
+                "reference": "e2392369686d420ca32df3803de28b5d6f76867d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/9b5daeaffce5b926cac47923798bba91059e60e2",
-                "reference": "9b5daeaffce5b926cac47923798bba91059e60e2",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e2392369686d420ca32df3803de28b5d6f76867d",
+                "reference": "e2392369686d420ca32df3803de28b5d6f76867d",
                 "shasum": ""
             },
             "require": {
@@ -2515,7 +2518,7 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^7 || ^8",
                 "ext-json": "*",
-                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
+                "graylog2/gelf-php": "^1.4.2 || ^2.0",
                 "guzzlehttp/guzzle": "^7.4.5",
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
@@ -2523,7 +2526,7 @@
                 "phpstan/phpstan": "^1.9",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
                 "phpstan/phpstan-strict-rules": "^1.4",
-                "phpunit/phpunit": "^9.5.26",
+                "phpunit/phpunit": "^10.1",
                 "predis/predis": "^1.1 || ^2",
                 "ruflin/elastica": "^7",
                 "symfony/mailer": "^5.4 || ^6",
@@ -2576,7 +2579,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/3.3.1"
+                "source": "https://github.com/Seldaek/monolog/tree/3.4.0"
             },
             "funding": [
                 {
@@ -2588,7 +2591,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-06T13:46:10+00:00"
+            "time": "2023-06-21T08:46:11+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -6888,20 +6891,20 @@
         },
         {
             "name": "jubeki/laravel-code-style",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Jubeki/laravel-code-style.git",
-                "reference": "eff8d088947d825e6420f8711643efec49f32cdd"
+                "reference": "54721d50f22ddbe8ffab51858e316b48f8ec0152"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Jubeki/laravel-code-style/zipball/eff8d088947d825e6420f8711643efec49f32cdd",
-                "reference": "eff8d088947d825e6420f8711643efec49f32cdd",
+                "url": "https://api.github.com/repos/Jubeki/laravel-code-style/zipball/54721d50f22ddbe8ffab51858e316b48f8ec0152",
+                "reference": "54721d50f22ddbe8ffab51858e316b48f8ec0152",
                 "shasum": ""
             },
             "require": {
-                "friendsofphp/php-cs-fixer": "^3.14.4",
+                "friendsofphp/php-cs-fixer": "^3.18",
                 "illuminate/support": "^9.30 || ^10.0",
                 "php": "^8.0"
             },
@@ -6948,9 +6951,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Jubeki/laravel-code-style/issues",
-                "source": "https://github.com/Jubeki/laravel-code-style/tree/2.4.0"
+                "source": "https://github.com/Jubeki/laravel-code-style/tree/2.4.1"
             },
-            "time": "2023-04-25T12:11:02+00:00"
+            "time": "2023-06-20T08:17:02+00:00"
         },
         {
             "name": "maximebf/debugbar",
@@ -7844,16 +7847,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.20",
+            "version": "1.10.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803"
+                "reference": "b2a30186be2e4d97dce754ae4e65eb0ec2f04eb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803",
-                "reference": "c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b2a30186be2e4d97dce754ae4e65eb0ec2f04eb5",
+                "reference": "b2a30186be2e4d97dce754ae4e65eb0ec2f04eb5",
                 "shasum": ""
             },
             "require": {
@@ -7902,7 +7905,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-20T12:07:40+00:00"
+            "time": "2023-06-21T20:07:58+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
