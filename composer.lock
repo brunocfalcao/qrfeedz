@@ -364,7 +364,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-cube",
-                "reference": "87bca735380890f2d1f251e3a218b132ee472d7e"
+                "reference": "100e758d7928b49dfca8403bd392550f77ebf926"
             },
             "require": {
                 "brunocfalcao/laravel-defaultables": "dev-master",
@@ -413,7 +413,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-foundation",
-                "reference": "d9cfe9ae6972373a8d67cb12e8ddda2c59acd48a"
+                "reference": "1ca788c3c3dbab659c2146f6e60b4cdc9dd1ac24"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -458,7 +458,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-frontend",
-                "reference": "7e09ef707b7f8c1caa60ca4f5318a8fd288c920f"
+                "reference": "12a1ae69e09b3f70c49a1546a601387c398d9899"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -565,7 +565,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/qrfeedz/qrfeedz-services",
-                "reference": "73ccf737495dc4a9b7e3768ad28110068ec4be2c"
+                "reference": "66a70e6c17fab9cbd6c58c99cf647c39225e38f7"
             },
             "require": {
                 "brunocfalcao/qrfeedz-authorization": "dev-master",
@@ -574,7 +574,9 @@
                 "illuminate/contracts": "^10.0",
                 "mexitek/phpcolors": "dev-master",
                 "php": "^8.1",
-                "spatie/once": "^3.1"
+                "spatie/once": "^3.1",
+                "symfony/http-client": "*",
+                "symfony/postmark-mailer": "*"
             },
             "type": "library",
             "extra": {
@@ -1732,7 +1734,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "973b54ed201cdf1ec820699831e39189327ae17e"
+                "reference": "aef89589ea70e0081c139b06550220cc75f20ea6"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
