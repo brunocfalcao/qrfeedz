@@ -1,57 +1,58 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<title>{{ config('app.name') }}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="color-scheme" content="light">
-<meta name="supported-color-schemes" content="light">
-<style>
-@media only screen and (max-width: 600px) {
-.inner-body {
-width: 100% !important;
-}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            font-family: 'Verdana', sans-serif;
+            line-height: 1.8;
+            font-size: 18px;
+            color: #000000;
+        }
 
-.footer {
-width: 100% !important;
-}
-}
-
-@media only screen and (max-width: 500px) {
-.button {
-width: 100% !important;
-}
-}
-</style>
+        @media (max-width: 600px) {
+            /* Center QRFeedz component on mobile devices */
+            .qrfeedz-component {
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 <body>
+    <!-- Component Logo -->
+    <table cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin: 0 auto; background-color: #ffffff;">
+        <tr>
+            <td align="center" style="padding: 20px 0;">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="https://placehold.co/100x60" alt="QRFeedz Logo" width="100" height="60" style="display: block;">
+                    <h1 style="margin-top: 20px; font-size: 24px; color: #000000;">QRFeedz</h1>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <!-- /Component Logo -->
 
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation">
-<tr>
-<td align="center">
-<table class="content" width="100%" cellpadding="0" cellspacing="0" role="presentation">
-{{ $header ?? '' }}
+    <!-- Component Content -->
+    <table cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin: 0 auto;">
+        <tr>
+            <td bgcolor="#ffffff" style="padding: 20px; font-size: 18px; color: #000000;">
+            {{ Illuminate\Mail\Markdown::parse($slot) }}
+            </td>
+        </tr>
+    </table>
+    <!-- /Component Content -->
 
-<!-- Email Body -->
-<tr>
-<td class="body" width="100%" cellpadding="0" cellspacing="0" style="border: hidden !important;">
-<table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" role="presentation">
-<!-- Body content -->
-<tr>
-<td class="content-cell">
-{{ Illuminate\Mail\Markdown::parse($slot) }}
-
-{{ $subcopy ?? '' }}
-</td>
-</tr>
-</table>
-</td>
-</tr>
-
-{{ $footer ?? '' }}
-</table>
-</td>
-</tr>
-</table>
+    <!-- Component Footer -->
+    <table cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin: 0 auto; background-color: #ffffff;">
+        <tr>
+            <td align="center" style="padding: 20px 0; color: #999999; font-size: 12px; color: #000000;">
+                &copy; {{ date('Y') }} QRFeedz, All Rights Reserved.
+            </td>
+        </tr>
+    </table>
+    <!-- /Component Footer -->
 </body>
 </html>
