@@ -1,8 +1,8 @@
+@props(['preview'])
 <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ config('app.name') }}</title>
     <style>
         body {
             margin: 0;
@@ -23,15 +23,23 @@
     </style>
 </head>
 <body>
-    <!-- Header -->
+    <!-- Compoenent Preview -->
+    <div style=”display:none;”>{{ $preview }}</div>
+    <!-- /Component Preview -->
+
+    <!-- Component Header -->
     {{ $header ?? '' }}
-    <!-- /Header -->
+    <!-- /Component Header -->
 
     <!-- Component Content -->
     <table cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin: 0 auto;">
         <tr>
             <td bgcolor="#ffffff" style="padding: 20px; font-size: 18px; color: #000000;">
-            {{ Illuminate\Mail\Markdown::parse($slot) }}
+
+                <!-- Content markdown -->
+                {{ Illuminate\Mail\Markdown::parse($slot) }}
+                <!-- /Content markdown -->
+
             </td>
         </tr>
     </table>
@@ -41,7 +49,7 @@
     <table cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin: 0 auto; background-color: #ffffff;">
         <tr>
             <td align="center" style="padding: 20px 0; color: #999999; font-size: 12px; color: #000000;">
-                &copy; {{ date('Y') }} QRFeedz, All Rights Reserved.
+                &copy; 2023 QRFeedz, All Rights Reserved.
             </td>
         </tr>
     </table>
